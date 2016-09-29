@@ -1,3 +1,26 @@
+//RETURN FUNCTIONS
+function addNum(num1,num2) {
+   console.log(num1 + num2);
+};
+
+function sqNum(value) {
+  console.log(value * value);
+}
+
+sqNum(addNum(5,3));
+
+vs
+
+function addNum(num1,num2) {
+   return (num1 + num2);
+};
+
+function sqNum(value) {
+  console.log(value * value);
+}
+
+
+
 
 function newFunction() {
 	// DO SOMETHING HERE
