@@ -1,4 +1,5 @@
 //RETURN FUNCTIONS
+
 function addNum(num1,num2) {
    console.log(num1 + num2);
 };
@@ -18,6 +19,29 @@ function addNum(num1,num2) {
 function sqNum(value) {
   console.log(value * value);
 }
+
+sqNum(addNum(5,3))
+
+function addNum(num1, num2) {
+  return num1 + num2;
+}
+
+
+//RETURN STATEMENT
+function noReturnAddsNum(num1, num2) {
+  num1 + num2
+}
+
+console.log("This is with return " + addNum(2,3));
+console.log("This is without return " + noReturnAddsNum(2,3));
+
+
+
+var answer1 = addNum(2,3);
+var answer2 = noReturnAddsNum(2,3)
+
+console.log("This is with return " + answer1);
+console.log("This is without return " + answer2);
 
 
 
